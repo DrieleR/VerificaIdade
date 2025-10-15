@@ -81,18 +81,19 @@ input {
 
     section {
         width: 90%;
-        padding: 8px;
+        padding: 5px;
     }
 
     input {
-        width: 50%;
+        width: 80%;
+        height: auto;
         box-sizing: border-box;
         margin-bottom: 10px;
     }
 
     .btn {
-        width: 30%;
-        padding: 10px 20px;
+        width: 80%;
+        padding: 10px 40px 10px 20px;
     }
 
     footer {
