@@ -2,19 +2,23 @@ body {
     background-color: rgb(50,159,206);
     font-family: 'Times New Roman', Times, serif;
     font-size: 15pt;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     color: aliceblue;
     text-align: center;
+    padding: 20px 10px;
 }
 
 section {
     background-color: aliceblue;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
-    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.363);
 }
 
@@ -22,16 +26,77 @@ footer{
     color: aliceblue;
     text-align: center;
     font-style: italic;
+    padding: 10px 0;
 }
 
 input {
     border-radius: 5px;
     border-width: 1px;
+    padding: 5px;
+    font-size: 1em;
 }
 
 .btn {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     border-width: 1px;
     background-color: rgb(48,48,48);
     color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+/* ----------- RESPONSIVIDADE ----------- */
+
+/* Tablets */
+@media (max-width: 768px) {
+    body {
+        font-size: 13pt;
+    }
+
+    section {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 20%;
+        padding: 10px 20px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    body {
+        font-size: 12pt;
+    }
+
+    header {
+        font-size: 1.2em;
+        padding: 15px 8px;
+    }
+
+    section {
+        width: 90%;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 20%;
+        padding: 10px 20px;
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 8px 0;
+    }
 }
