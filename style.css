@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(50,159,206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.363);
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+input {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    border-width: 1px;
+    background-color: rgb(48,48,48);
+    color: aliceblue;
+}
